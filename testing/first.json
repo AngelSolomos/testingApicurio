@@ -7,7 +7,16 @@
   },
   "paths": {
     "/resources": {
-      "get": {}
+      "get": {
+        "description": "Return a list o first",
+        "responses": {
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/first"
+            }
+          }
+        }
+      }
     }
   },
   "definitions": {
