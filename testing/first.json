@@ -12,6 +12,7 @@
         "description": "Return a list o first",
         "responses": {
           "200": {
+            "description": "Returns first",
             "schema": {
               "$ref": "#/definitions/first"
             }
