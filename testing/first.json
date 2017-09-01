@@ -26,21 +26,26 @@
           {
             "name": "name",
             "in": "formData",
+            "description": "application/x-www-form-urlencoded",
             "type": "string"
           },
           {
             "name": "age",
             "in": "formData",
+            "description": "application/x-www-form-urlencoded",
             "type": "integer"
           },
           {
             "name": "car",
             "in": "formData",
+            "description": "application/x-www-form-urlencoded",
             "type": "string"
           }
         ],
         "responses": {
-          "201": {}
+          "201": {
+            "description": "Creates a first"
+          }
         }
       }
     }
