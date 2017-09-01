@@ -17,6 +17,30 @@
             }
           }
         }
+      },
+      "post": {
+        "summary": "adding a first",
+        "description": "for adding first",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "formData",
+            "type": "string"
+          },
+          {
+            "name": "age",
+            "in": "formData",
+            "type": "integer"
+          },
+          {
+            "name": "car",
+            "in": "formData",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "201": {}
+        }
       }
     }
   },
