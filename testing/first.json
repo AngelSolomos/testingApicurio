@@ -28,22 +28,12 @@
         "description": "for adding first",
         "parameters": [
           {
-            "name": "name",
-            "in": "formData",
-            "description": "application/x-www-form-urlencoded",
-            "type": "string"
-          },
-          {
-            "name": "age",
-            "in": "formData",
-            "description": "application/x-www-form-urlencoded",
-            "type": "integer"
-          },
-          {
-            "name": "car",
-            "in": "formData",
-            "description": "application/x-www-form-urlencoded",
-            "type": "string"
+            "name": "body",
+            "in": "body",
+            "description": "give a first",
+            "schema": {
+              "$ref": "#/definitions/first"
+            }
           }
         ],
         "responses": {
