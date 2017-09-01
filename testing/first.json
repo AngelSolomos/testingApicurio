@@ -1,1 +1,32 @@
-{"swagger":"2.0","info":{"title":"It's a test","description":"","version":"1.0.0"}}
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "It's a test",
+    "description": "",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/resources": {
+      "get": {}
+    }
+  },
+  "definitions": {
+    "first": {
+      "title": "Root Type for first",
+      "description": "The root of the first type's schema.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "age": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "car": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
