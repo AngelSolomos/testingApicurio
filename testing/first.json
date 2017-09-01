@@ -8,6 +8,7 @@
   "paths": {
     "/resources": {
       "get": {
+        "summary": "summarizing",
         "description": "Return a list o first",
         "responses": {
           "200": {
