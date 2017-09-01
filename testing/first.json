@@ -3,6 +3,10 @@
   "info": {
     "title": "It's a test",
     "description": "",
+    "license": {
+      "name": "The Unlicense",
+      "url": "http://unlicense.org"
+    },
     "version": "1.0.0"
   },
   "paths": {
@@ -47,7 +51,13 @@
             "description": "Creates a first"
           }
         }
-      }
+      },
+      "parameters": [
+        {
+          "name": "'application/x-www-form-urlencoded'",
+          "in": "query"
+        }
+      ]
     }
   },
   "definitions": {
